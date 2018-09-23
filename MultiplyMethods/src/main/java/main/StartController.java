@@ -184,7 +184,7 @@ public class StartController {
     		Alert message = new Alert(Alert.AlertType.INFORMATION);
 			message.setTitle("Multiply Result");
 			message.setContentText(model.karatsuba(number1, number2).toString());
-			message.setHeaderText("This numbers have been multipled by Karatsuba method");
+			message.setHeaderText("This numbers have been multipled by Karatsuba method\n\n"+number1.toString()+" x "+number2.toString()+" =\n");
 			message.show();
     	}catch(NumberFormatException e) {
     		Alert message = new Alert(Alert.AlertType.ERROR);

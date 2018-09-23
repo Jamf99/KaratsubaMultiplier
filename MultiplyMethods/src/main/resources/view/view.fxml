@@ -97,7 +97,7 @@
             <Image url="@erizito.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="117.0" layoutY="28.0" text="MULTIPLICATOR" textFill="#ff0808">
+      <Label layoutX="149.0" layoutY="26.0" text="MULTIPLIER" textFill="#ff0808">
          <font>
             <Font name="System Bold" size="30.0" />
          </font>
